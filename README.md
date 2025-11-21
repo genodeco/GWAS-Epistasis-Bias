@@ -1,4 +1,4 @@
-# GWAS-Inflation
+# GWAS-Epistasis-Bias
 
 ## Description
 This is the code repository for the manuscript "[Inflation of genome-wide association test statistics due to omitted interactions](https://arxiv.org)". 
