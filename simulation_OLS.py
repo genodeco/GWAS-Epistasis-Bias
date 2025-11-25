@@ -5,6 +5,9 @@ import random
 from scipy import stats
 import time
 from scipy.stats import binned_statistic_2d
+import os
+
+os.makedirs("figures", exist_ok=True)
 
 # Mock genotype matrix, assuming first 4034 SNPs are on chromosome a, rest is chromsome b. Needs to be replaced with real genotypes.
 df = np.random.randint(0, 3, size=(10000, 8170))

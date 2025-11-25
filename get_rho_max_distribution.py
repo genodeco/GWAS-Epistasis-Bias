@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import random
+import os
+
+os.makedirs("figures", exist_ok=True)
 
 # Mock genotype matrix, assuming first 4034 SNPs are on chromosome a, rest is chromsome b. Needs to be replaced with real genotypes.
 df = np.random.randint(0, 3, size=(10000, 8170))
@@ -54,7 +57,7 @@ CtC = C.T @ C
 df1 = df1 - C @ np.linalg.solve(CtC, C.T @ df1)
 
 
-_cols = 4034 # interacting SNPs on chromosome a
+n_cols = 4034 # interacting SNPs on chromosome a
 n_iters = 100 # 100 different Z interaction matrices
 n_g = 4034 - 200 # Same chr
 #n_g = 4135 # Diff chr

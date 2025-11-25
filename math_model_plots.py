@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
+import os
+
+os.makedirs("figures", exist_ok=True)
 
 n = 100_000
 x = 5.45
