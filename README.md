@@ -58,3 +58,16 @@ This is the code repository for the manuscript "[Inflation of genome-wide associ
 
 ### Running the Scripts
 The scripts can be run independently. Please note that simulation analyses were performed with the Estonian Biobank dataset which cannot be shared publicly. Therefore, mock genotypes and covarites are generated in relevant sections. Please use your own genotype and covariate data to obtain meaningful results.
+
+
+### Citation
+
+```bibtex
+@misc{yelmen_bias_2025,
+	title = {Bias in genome-wide association test statistics due to omitted interactions},
+	url = {https://www.biorxiv.org/content/10.1101/2025.11.21.689603v1},
+    doi = {10.1101/2025.11.21.689603},
+	publisher = {bioRxiv},
+	author = {Yelmen, Burak and Güler, Merve Nur and Team, Estonian Biobank Research and Kollo, Tõnu and Möls, Märt and Charpiat, Guillaume and Jay, Flora},
+	date = {2025-11-22},
+}
